@@ -6,7 +6,7 @@
 
 .container{
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     background-color: beige;
     padding: 0px;
 }
@@ -54,8 +54,6 @@
     border-radius: 5px;
 
     gap: 110px;
-    display: flex;
-    flex-direction: row;
 }
 
 .theMenu{
@@ -64,11 +62,19 @@
     font-size: 35px;
     font-weight: bold;
     letter-spacing: 2px;
+    padding-bottom: 10px;
+    margin: 10px;
 }
 
 .website-container img{
     width: 100%;
-    max-width: 720px;
-    height: 420px;
+    max-width: auto;
+    height: 520px;
     border-radius: 5px;
+}
+
+.MenuOptions{
+    font-family: monospace;
+    color: olivedrab;
+    font-size: 15px;
 }
