@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     box-sizing: border-box;
 }
 
@@ -9,26 +8,24 @@
     width: 100%;
     min-height: 100vh;
     background-color: beige;
-    padding: 1px;
+    padding: 0px;
 }
 
 .platform{
     width: 100%;
-    min-height: 10px;
-    background-color: rgb(255, 157, 0);
-    margin: 30px auto 30px;
-    border-radius: 5px;
+    min-height: 150px;
+    background-color: olive;
 }
 
 .heading1{
-    font-family: monospace;
     color: white;
+    font-family: monospace;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 5px;
     letter-spacing: 3px;
-    font-size: larger;
-
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .heading2{
@@ -36,17 +33,15 @@
     text-align: center;
     letter-spacing: 1px;
     font-size: 12px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
-.Recipes{
-    display: flex;
-    flex-direction: column;
-    padding-left: 500px;    
+.website-container{
+    background-color: rgb(151, 148, 148);
+    margin: 60px ; /* Adds space around the black box, revealing the beige background */
+    max-width: 1950px; /* Optional: Constrain width */
+    height: 600px;
+    padding: 20px; /* Internal spacing (inside the black box) */
 }
 
-.recipe-division{
-    display: flex;
-    gap: 50px;
-    font-weight: 700;
-}
+
