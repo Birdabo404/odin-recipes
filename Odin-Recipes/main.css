@@ -36,12 +36,39 @@
     padding-bottom: 20px;
 }
 
+.heading3{
+    color: #000;
+    gap: 50px;
+    font-family: monospace;
+    font-size: 13px;
+    margin-left: 80px;
+    display: flex;
+    align-items: flex-start;
+}
 .website-container{
-    background-color: rgb(151, 148, 148);
-    margin: 60px ; /* Adds space around the black box, revealing the beige background */
-    max-width: 1950px; /* Optional: Constrain width */
+    background-color: rgb(228, 228, 204);
+    margin: 60px ; 
+    max-width: 1950px; 
     height: 600px;
-    padding: 20px; /* Internal spacing (inside the black box) */
+    padding: 10px; 
+    border-radius: 5px;
+
+    gap: 110px;
+    display: flex;
+    flex-direction: row;
 }
 
+.theMenu{
+    color: olive;
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
+.website-container img{
+    width: 100%;
+    max-width: 720px;
+    height: 420px;
+    border-radius: 5px;
+}
