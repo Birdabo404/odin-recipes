@@ -6,9 +6,9 @@
 
 .container{
     width: 100%;
-    min-height: 110vh;
+    min-height: 100vh;
     background-color: beige;
-    padding: 0px;
+    padding: 0;
 }
 
 .platform{
@@ -41,40 +41,14 @@
     gap: 50px;
     font-family: monospace;
     font-size: 13px;
-    margin-left: 80px;
     display: flex;
-    align-items: flex-start;
+    padding-left: 80px;
 }
 .website-container{
     background-color: rgb(228, 228, 204);
     margin: 60px ; 
     max-width: 1950px; 
     height: 600px;
-    padding: 10px; 
+    padding: 20px; 
     border-radius: 5px;
-
-    gap: 110px;
-}
-
-.theMenu{
-    color: olive;
-    font-family: monospace;
-    font-size: 35px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding-bottom: 10px;
-    margin: 10px;
-}
-
-.website-container img{
-    width: 100%;
-    max-width: auto;
-    height: 520px;
-    border-radius: 5px;
-}
-
-.MenuOptions{
-    font-family: monospace;
-    color: olivedrab;
-    font-size: 15px;
 }
