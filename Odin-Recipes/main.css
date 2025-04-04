@@ -8,13 +8,14 @@
     width: 100%;
     min-height: 100vh;
     background-color: beige;
-    padding: 0;
+    padding: 5px;
 }
 
 .platform{
     width: 100%;
     min-height: 150px;
     background-color: olive;
+    border-radius: 1px;
 }
 
 .heading1{
@@ -33,7 +34,7 @@
     text-align: center;
     letter-spacing: 1px;
     font-size: 12px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .heading3{
@@ -43,12 +44,40 @@
     font-size: 13px;
     display: flex;
     padding-left: 80px;
+    padding-bottom: 5px;
 }
 .website-container{
     background-color: rgb(228, 228, 204);
     margin: 60px ; 
     max-width: 1950px; 
-    height: 600px;
-    padding: 20px; 
-    border-radius: 5px;
+    height: 488px;
+    padding: 30px;
+    border-radius: 24px;
+
+    display: flex;
+    gap: 80px;
+}
+
+.image-header img{
+    width: 720px;
+    height: 420px;
+    border-radius: 18px;
+}
+
+.menu-header{
+    color: olive;
+    font-family: monospace;
+    font-size: 35px;
+    letter-spacing: 5px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.menu-list{
+    font-size: 13px;
 }
