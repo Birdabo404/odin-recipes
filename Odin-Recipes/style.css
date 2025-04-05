@@ -16,6 +16,8 @@
     width: 720px;
     min-height: 100vh;
     border-radius: 2px;
+
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header1{
@@ -30,12 +32,17 @@
     padding-bottom: 10px;
 }
 
+.header1:hover{
+    color: rgb(191, 191, 2)
+}
+
 .head2-info{
     display: flex;
     flex-direction: row;
     gap: 20px;
     justify-content: center;
 }
+
 
 .availableFoods{
     font-family: monospace;
@@ -44,4 +51,13 @@
     flex-direction: column;
     letter-spacing: 2px;
     padding: 50px;
+}
+
+.foodsInfo a {
+    text-decoration: none;
+    color: olive;
+}
+
+.foodsInfo:hover{
+    color: beige;
 }

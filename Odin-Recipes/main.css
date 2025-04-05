@@ -29,6 +29,11 @@
     font-weight: bold;
 }
 
+.heading1:hover{
+    color: #000;
+    text-decoration: none;
+}
+
 .heading2{
     color: whitesmoke;
     text-align: center;
@@ -46,6 +51,11 @@
     padding-left: 80px;
     padding-bottom: 5px;
 }
+
+.heading3 a{
+    text-decoration: none;
+    color: beige;
+}
 .website-container{
     background-color: rgb(228, 228, 204);
     margin: 50px ; 
@@ -56,6 +66,7 @@
 
     display: flex;
     gap: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .image-header img{
