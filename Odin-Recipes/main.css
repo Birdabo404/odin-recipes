@@ -48,14 +48,14 @@
 }
 .website-container{
     background-color: rgb(228, 228, 204);
-    margin: 60px ; 
+    margin: 50px ; 
     max-width: 1950px; 
     height: 488px;
-    padding: 30px;
+    padding: 10px;
     border-radius: 24px;
 
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .image-header img{
@@ -64,20 +64,58 @@
     border-radius: 18px;
 }
 
-.menu-header{
-    color: olive;
-    font-family: monospace;
-    font-size: 35px;
-    letter-spacing: 5px;
-
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding-top: 50px;
+.menu-content {
+    margin-top: 20px;
+    width: 100%;
 }
 
-.menu-list{
-    font-size: 13px;
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    border-bottom: 1px dashed rgba(128, 128, 0, 0.3);
+    margin-bottom: 5px;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    color: olive;
+}
+
+.website-container {
+    height: auto;
+    min-height: 488px;
+}
+
+@media (max-width: 1200px) {
+    .website-container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    
+    .image-header img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .menu-header {
+        padding-top: 10px;
+    }
+}
+
+.menu-div{
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin: 10px;
+    color: olive;
+
+    padding-left: 80px;
+
 }

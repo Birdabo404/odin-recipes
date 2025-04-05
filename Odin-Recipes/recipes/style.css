@@ -9,15 +9,39 @@
     min-height: 100vh;
     background-color: olive;
     padding: 1px;
-
-    display: flex;
-    align-items: center;
-    padding-left: 250px;
 }
 
 .Website-Container{
     background-color: beige;
     width: 720px;
     min-height: 100vh;
-    border-radius: 10px
+    border-radius: 2px;
+}
+
+.header1{
+    color: olive;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+    
+    padding-bottom: 10px;
+}
+
+.head2-info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.availableFoods{
+    font-family: monospace;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    padding: 50px;
 }
