@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 1px; 
+    background-color: #1c1c1e;
+}
+.lasagnaContainer {
+    width: 100%;
+    width: 720px;
+    height: 100vh;
+    margin: 0px auto 0px;
+    background-color: #232b2b;
+    border-radius: 10px;
+
+}
+
+.header1{
+    font-family: monospace;
+    font-size: 30px;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.Structure {
+    font-family: monospace;
+    font-size: 13px;
+    color: beige;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    padding-left: 100px;
+}
+
+.websiteStruct p {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+
+.websiteStruct a {
+    text-decoration: none;
+    color: beige;
+ }
